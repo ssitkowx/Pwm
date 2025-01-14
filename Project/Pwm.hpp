@@ -23,6 +23,10 @@ class Pwm
             Num1,
             Num2,
             Num3,
+            Num4,
+            Num5,
+            Num6,
+            Num7
         };
 
         void Set (const EChannel vChan, const uint32_t vDuty) { derivedType.Set (); }
